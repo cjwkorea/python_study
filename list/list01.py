@@ -39,7 +39,10 @@ temp = [[1, 2], [3, 4]]
 # 1
 
 temp = [(1, 2), (3, 4)]
-temp = [{"key": "value", "name": "이름"}, {"b": "d", "aa": "dd"}]
+temp = [
+    {"key": "value", "name": "이름"}, 
+    {"b": "d", "aa": "dd"}
+    ]
 print(temp[0])
 # {'key': 'value', 'name': '이름'}
 print(temp[0]["name"])

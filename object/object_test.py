@@ -1,7 +1,30 @@
 from animal import Animal
+from cat import Cat
+from dog import Dog
 
-new_animal = Animal(0)
+Animal.hello()
 
-new_animal.eat()
 
-new_animal.get_age()
+print()
+
+a = Animal(12)
+b = Cat("나옹", 5)
+c = Dog("댕댕", 3)
+
+a.eat()
+b.eat()
+c.eat()
+
+print()
+
+a.get_age()
+b.get_age()
+c.get_age()
+
+
+print()
+
+
+Animal.get_count()
+Cat.get_count()
+Dog.get_count()
